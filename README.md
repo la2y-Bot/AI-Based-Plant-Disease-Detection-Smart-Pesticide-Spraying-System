@@ -24,13 +24,13 @@ Inspired by the spider-cam from sports broadcasting, our setup uses:
 - A buzzer for alerts, warnings, or just to say “hi” 😄
 
 ### 🧪 Components You’ll Need:
-- 4× 5V DC stepper motors (28BYJ-48) 🌀
-- 4× ULN2003 motor drivers 🎛️
-- 1× L298N H-bridge module 🚗
-- Rainbow wires for that unicorn vibe 🌈
-- 1× ESP32 (the smart cookie 🍪)
-- 1× Raspberry Pi 3 or higher (the boss 🧑‍💼)
-- 1× Camera module (your AI’s eyes 👀)
+- 4× [5V DC stepper motors (28BYJ-48) 🌀](https://robu.in/product/28byj-48-stepper-motor-dc-5v/) ---> [datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+- 4× [ULN2003 motor drivers 🎛️](https://robu.in/product/uln2003-driver-module-stepper-motor-driver-board) ---> [datasheet](https://www.digikey.com/en/htmldatasheets/production/7731644/0/0/1/uln2003)
+- 1× [L298N H-bridge module 🚗](https://robu.in/product/l298-based-motor-driver-module-2a/) ---> [datasheet](https://www.st.com/resource/en/datasheet/l298.pdf)
+- [Rainbow wires for that unicorn vibe 🌈](https://robu.in/product/1-27mm-26awg-pure-copper-40pin-dupont-wire-flexible-rainbow-color-flat-ribbon-cable-1-meter/)
+- 1× [ESP32 (the smart cookie 🍪)](https://robu.in/product/esp-wroom-32-wifi-bluetooth-networking-smart-component-development-board/) For nerdy bedtime reading, consult the ESP32 datasheet PDF 😁👍 [esp32 datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+- 1× [Raspberry Pi 3 or higher (Recommanded raspberry pi 4 the boss 🧑‍💼)](https://robu.in/product/raspberry-pi-4-model-b-with-4-gb-ram/) --> [For professionals only 😎](https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf)
+- 1× [Camera module (your AI’s eyes 👀)](https://robu.in/product/raspberry-pi-camera-module/)
 - Power cables, data cables, and a sprinkle of DIY magic ✨
 
 ### 💡 Why It Rocks:
