@@ -4,6 +4,7 @@ Ever seen a spider-cam zoom across a football field? Now imagine that — but in
 
 * [Objective](#-mission-precision-pesticide-power)
 * [Working](#%EF%B8%8F-how-it-works)
+* [prerequisites](#prerequisites)
 * [Components required](#-components-youll-need)
 * [Why It Rocks:](#-why-it-rocks)
 
@@ -22,6 +23,24 @@ Inspired by the spider-cam from sports broadcasting, our setup uses:
 - ESP32 + Raspberry Pi combo for brains and brawn 🧠💪
 - Stepper motors and drivers to move with style 🕺
 - A buzzer for alerts, warnings, or just to say “hi” 😄
+
+## Prerequisites
+- [setup raspberry pi and have it in working condition.](https://www.youtube.com/watch?v=CQtliTJ41ZE)
+- make sure to enable SSH during making bootable SD card for pi.
+- Use stepper_calibration code to calibreate camera near motor 3 or in the middle. [code](https://github.com/la2y-Bot/AI-Based-Plant-Disease-Detection-Smart-Pesticide-Spraying-System/tree/main/arduinoIDE_codes/stepper_calibration)
+- make sure to connect esp32 and raspberry pi to same newtork (same localhost).
+- Put python scripts in pi 👇
+1. Find Pi’s IP (`hostname -I` on Pi).  
+2. Open **PowerShell** on Windows.  
+3. Run:  
+   ```powershell
+   scp C:\path\file.txt pi@<Pi_IP>:/home/pi/
+   ```  
+4. Enter Pi’s password when asked.  
+5. Verify on Pi with:  
+   ```bash
+   ls /home/pi/
+   ```
 
 ### 🧪 Components You’ll Need:
 - 4× [5V DC stepper motors (28BYJ-48) 🌀](https://robu.in/product/28byj-48-stepper-motor-dc-5v/) ---> [datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
