@@ -2,6 +2,11 @@
 
 Ever seen a spider-cam zoom across a football field? Now imagine that — but instead of chasing sweaty athletes, it's gliding over your crop field, hunting down plant infections like a botanical superhero. 🦸‍♂️🌱
 
+* [Objective](#-mission-precision-pesticide-power)
+* [Working](#%EF%B8%8F-how-it-works)
+* [Components required](#-components-youll-need)
+* [Why It Rocks:](#-why-it-rocks)
+
 ### 🎯 Mission: Precision Pesticide Power!
 This low-cost AI-powered field scanning system is designed to:
 - Detect plant diseases with machine vision 🧠📸
